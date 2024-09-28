@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="admin-menu">
+        <h1>Admin Menu</h1>
+
+        <!-- Player selection -->
+        <label for="players">Select a Player:</label>
+        <select id="players"></select>
+
+        <button onclick="gotoPlayer()">Goto Player</button>
+        <button onclick="jailPlayer()">Jail Player</button>
+        <button onclick="banPlayer()">Ban Player</button>
+        <button onclick="revivePlayer()">Revive Player</button> <!-- Revive button -->
+        <button onclick="closeMenu()">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
